@@ -13,12 +13,12 @@ int main()
 		number[j] = j + 1;
 		
 	}
-	for (int i; i < n; i++)
+	for (int i=0; i < n; i++)
 	{
 		cout << "time[" << i << "]=" << endl;
 		cin >> time[i];
 	}
-	for (int i; i < n - 1; i++)
+	for (int i=0; i < n - 1; i++)
 	{
 		for (int j = 0; j < n - 1 - i; j++)
 		{
